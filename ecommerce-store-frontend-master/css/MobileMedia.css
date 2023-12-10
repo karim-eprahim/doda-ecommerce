@@ -1,0 +1,156 @@
+
+@media screen and (max-width: 567px) {
+    .boxcontainer{
+        transform: translateY(50px);
+        width: 100%;
+        height: 150vh;
+      
+      }
+      .boxcontainer .box1{
+        width: 100%;
+      height: 40vh;
+      display: grid; 
+      text-align: center;
+     
+      }
+      .boxcontainer .box2{
+        transform: translateY(10px);
+      }
+      .boxcontainer .box2,.box3{
+        width: 100%;
+      height: 45vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      transform: translateY(10px);
+  
+      }
+    .box2 .imagebox ,.box3 .imagebox{
+   display: none;
+        
+      }
+
+      .box2 .text ,.box3 .text{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-content: center;
+        text-align: center;
+        gap: 15px;
+      }
+      .box2 .text h2 ,.box3 .text h2{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .box2 .text p ,.box3 .text p{
+        
+      width: 95%;
+      margin: auto;
+      }
+      .boxcontainer .frist-hr{
+     display: none;
+      }
+
+      .Form-container{
+        height: 150vh;
+        flex-direction: column;
+        
+    
+      }
+      .formBox{
+        width: 95%;
+        height: 49%;
+      }
+      .Form-container img{
+        width: 90%;
+      height:49%;
+      }
+      .formBox form{
+        width: 98%;
+   
+      
+      }
+      .order{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        margin: auto;
+      }
+      .Form-container2 h2{
+        width:95%;
+        height: 5vh;
+        font-size: 20px;
+      
+       
+      }
+      .OrderForm{
+        width:95%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+       
+      }
+      .OrderForm .ProductInfo input{
+        width: 49%;
+        height: 6vh;
+        border-radius: 8px;
+        border: 1px solid rgba(128, 128, 128, 0.274);
+        outline: none;
+        padding-left: 15px;
+        font-size: 10px;
+      }
+      label{
+        width: 45%;
+        height: 6vh;
+        text-align: center;
+        cursor: pointer;
+        font-weight: 700;
+        border: 1px solid rgba(128, 128, 128, 0.274);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+      }
+      button{
+        width:35%;
+        height: 6vh;
+        border-radius: 8px;
+        border: 1px solid rgba(128, 128, 128, 0.274);
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+        font-size: 15px;
+      }
+  }
+
+
+  @media (max-width: 800px){
+    .box2 .text h2 ,.box3 .text h2{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .box2 .text p ,.box3 .text p{
+        font-size: 18px;
+      width: 95%;
+      margin: auto;
+      }
+  }
+
+
+  @media (max-width: 650px){
+    .box2 .text h2 ,.box3 .text h2{
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .box2 .text p ,.box3 .text p{
+        font-size: 15px;
+      width: 95%;
+      margin: auto;
+      }
+  }
